@@ -5,14 +5,38 @@
     <link>https://rs-loves-bugs.github.io/</link>
     <description>Recent content in Home on _rs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://rs-loves-bugs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Aug 2022 02:15:26 +0300</lastBuildDate><atom:link href="https://rs-loves-bugs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>burp-browser-profiles</title>
+      <link>https://rs-loves-bugs.github.io/posts/burp-browser-profiles/</link>
+      <pubDate>Thu, 11 Aug 2022 02:15:26 +0300</pubDate>
+      
+      <guid>https://rs-loves-bugs.github.io/posts/burp-browser-profiles/</guid>
+      <description>burp-browser-profiles is a small shell script utility that will help you make better use of the embedded browser that comes by default with Burp. This is heavily inspired by PwnFox, I wanted to have a similar tool to use with the embedded Burp browser
+Features: -allows you to create and maintain multiple Burp browser profiles
+-allows you to run multiple Burp browser instances at the same time with different profiles</description>
+    </item>
+    
+    <item>
+      <title>4 hackers, one XSS challenge!</title>
+      <link>https://rs-loves-bugs.github.io/posts/intigriti-challenge-april-video/</link>
+      <pubDate>Tue, 26 Apr 2022 01:47:50 +0300</pubDate>
+      
+      <guid>https://rs-loves-bugs.github.io/posts/intigriti-challenge-april-video/</guid>
+      <description>In april I recorded myself solving the monthly Intigriti challenge, some parts from the recordings got featured in a video on the official Intigriti Youtube channel.
+I have to say, it is surprisingly dificult to narate and record yourself trying to figure out a vulnerability :)
+Thank you Intigriti for the opportunity!</description>
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://rs-loves-bugs.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rs-loves-bugs.github.io/contact/</guid>
-      <description>Twitter: @rs_loves_bugs</description>
+      <description>Mail: rs.on.the.internet@gmail.com
+Twitter: @rs_loves_bugs</description>
     </item>
     
   </channel>
