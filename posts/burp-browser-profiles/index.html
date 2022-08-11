@@ -48,14 +48,14 @@
 <p>-allows you in Burp to highlight with the same color the request from that specific profile(this feature requires installing a Burp extension)</p>
 <h1 id="instalation">Instalation:</h1>
 <p>burp-browser-profiles was tested on Mac and Linux and will work with either Burp Professional or Burp Community Edition</p>
-<pre tabindex="0"><code>git clone https://github.com/rs-loves-bugs/burp-browser-profiles
-</code></pre><pre tabindex="0"><code>cd burp-browser-profiles
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">git clone https://github.com/rs-loves-bugs/burp-browser-profiles
+</code></pre><pre tabindex="0"><code class="language-javscript" data-lang="javscript">cd burp-browser-profiles
 </code></pre><p>To color highlight the requests in Burp please install either one of these two extensions:</p>
 <p>PwnFox - <a href="https://github.com/yeswehack/PwnFox/releases/download/v1.0.3/PwnFox.jar">link to jar file</a>, highlighting enabled by default</p>
 <p>Sharpener - <a href="https://portswigger.net/bappstore/3c5025b0e19d419a8f339ee0c30391dd">link to BApp Store</a>, then enable the highlighter(Sharpener -&gt; Global Settings -&gt; Supported Capabilities -&gt; PwnFox Highlighter)</p>
 <h1 id="usage">Usage:</h1>
 <p>Show the help menu:</p>
-<pre tabindex="0"><code>./burp-browser-profiles
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles
 Syntax: ./burp-browser-profiles [options]
 
     -P &lt;profile_name&gt; (required) Create or open a profile
@@ -68,21 +68,21 @@ Syntax: ./burp-browser-profiles [options]
     -D &lt;profile_name&gt;            Delete a profile
     -h                           Help
 </code></pre><p>Create and run a profile named testing:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -P testing
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -P testing
 </code></pre><p>List available profiles to use:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -L
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -L
 </code></pre><p>Open and run an existing profile:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -P testing
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -P testing
 </code></pre><p>Open and run an existing profile, use a color for the frame and highlight the requests from it:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -P testing -c red
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -P testing -c red
 </code></pre><p>Open and run an existing profile with a custom proxy:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -P testing -p localhost:9999
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -P testing -p localhost:9999
 </code></pre><p>Open and run an existing profile with no proxy settings:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -P testing -x
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -P testing -x
 </code></pre><p>Open and run an existing profile with a custom user agent:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -P testing -u &#34;my user agent&#34;
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -P testing -u &#34;my user agent&#34;
 </code></pre><p>Delete a profile:</p>
-<pre tabindex="0"><code>./burp-browser-profiles -D testing
+<pre tabindex="0"><code class="language-javscript" data-lang="javscript">./burp-browser-profiles -D testing
 </code></pre>
 </main>
 
