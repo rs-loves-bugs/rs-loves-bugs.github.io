@@ -26,10 +26,10 @@ burp-browser-profiles is a small shell script utility that will help you make be
 
 burp-browser-profiles was tested on Mac and Linux and will work with either Burp Professional or Burp Community Edition
 
-```
+```javscript
 git clone https://github.com/rs-loves-bugs/burp-browser-profiles
 ```
-```
+```javscript
 cd burp-browser-profiles
 ```
 
@@ -42,7 +42,7 @@ Sharpener - [link to BApp Store](https://portswigger.net/bappstore/3c5025b0e19d4
 # Usage:
 Show the help menu:
 
-```
+```javscript
 ./burp-browser-profiles
 Syntax: ./burp-browser-profiles [options]
 
@@ -58,41 +58,41 @@ Syntax: ./burp-browser-profiles [options]
 ```
 
 Create and run a profile named testing:
-```
+```javscript
 ./burp-browser-profiles -P testing
 ```
 
 List available profiles to use:
-```
+```javscript
 ./burp-browser-profiles -L
 ```
 
 Open and run an existing profile:
-```
+```javscript
 ./burp-browser-profiles -P testing
 ```
 
 Open and run an existing profile, use a color for the frame and highlight the requests from it:
-```
+```javscript
 ./burp-browser-profiles -P testing -c red
 ```
 
 Open and run an existing profile with a custom proxy:
-```
+```javscript
 ./burp-browser-profiles -P testing -p localhost:9999
 ```
 
 Open and run an existing profile with no proxy settings:
-```
+```javscript
 ./burp-browser-profiles -P testing -x
 ```
 
 Open and run an existing profile with a custom user agent:
-```
+```javscript
 ./burp-browser-profiles -P testing -u "my user agent"
 ```
 
 Delete a profile:
-```
+```javscript
 ./burp-browser-profiles -D testing
 ```
